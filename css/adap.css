@@ -1,0 +1,331 @@
+@media (max-width: 1282px) {
+  .examples .examples__wrapp-item {
+    width: 30%;
+  }
+  .examples .examples__wrapp img {
+    width: 100%;
+    height: auto;
+  }
+  .invitation .invitation__gallery {
+    margin-top: -80px;
+  }
+  .header {
+    background-size: cover;
+  }
+  input.contacts__input {
+    min-width: 260px;
+    width: auto;
+  }
+  .examples__number {
+    font-size: 160px;
+  }
+  .contacts {
+    background-size: cover;
+  }
+  .invitation__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .invitation__gallery1 {
+    width: 125px;
+    height: 220px;
+  }
+  img.invitation__gallery2 {
+    width: 125px;
+    height: 220px;
+  }
+  img.invitation__gallery3 {
+    width: 252.08px;
+    height: 167.82px;
+  }
+  img.invitation__gallery4 {
+    width: 125px;
+    height: 220px;
+  }
+  .invitation__item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .examples .examples__wrapp-item {
+    width: 48%;
+    margin-bottom: 80px;
+  }
+  .examples__wrapp {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .examples__number {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer__wrapp {
+    left: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .header__item1 {
+    padding: 41px 22px;
+  }
+  .header__logo {
+    max-width: 60%;
+  }
+  .invitation {
+    padding: 0px 22px;
+  }
+  div#price {
+    padding: 0px 22px;
+  }
+  .examples {
+    padding: 0px 22px;
+  }
+  .contacts {
+    padding: 50px 22px;
+  }
+  .footer__text {
+    padding-left: 22px;
+  }
+}
+
+@media (max-width: 770px) {
+  .invitation__header1 {
+    margin-top: 80px;
+  }
+  .invitation__description {
+    margin-top: 22px;
+  }
+  .invitation__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .invitation .invitation__gallery {
+    margin-top: 0px;
+  }
+  .invitation__benefits-wrapp {
+    margin: 0 auto;
+  }
+  .invitation__gallery-2 {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .invitation__gallery1 {
+    width: 30%;
+    height: auto;
+  }
+  .invitation__team-wrapp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .invitation__team-member {
+    margin: 0 auto;
+  }
+  .invitation__team-item {
+    margin-bottom: 57px;
+  }
+  .invitation__team-wrapp {
+    margin-bottom: 84px;
+  }
+  .price__item {
+    max-width: 100%;
+  }
+  .examples .examples__wrapp-item {
+    width: 60%;
+    margin: auto;
+  }
+  .examples__numbers {
+    margin-top: 84px;
+  }
+  .examples__number {
+    font-size: 100px;
+  }
+  .contacts__header {
+    margin-top: 0px;
+  }
+  .contacts__inputs-wrapp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  input.contacts__input {
+    width: 377px;
+  }
+  .contacts__button-wrapp {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  .contacts__inputs {
+    margin: auto;
+  }
+  textarea.contacts__textarea {
+    margin: auto;
+  }
+  nav {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+  #menu {
+    display: none;
+  }
+}
+
+@media (max-width: 555px) {
+  .examples .examples__wrapp-item {
+    width: 100%;
+  }
+  .examples__numbers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 0px;
+  }
+  .examples__numbers1 {
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+  .examples__number-item {
+    margin-top: 30px;
+  }
+  .examples__text_left {
+    margin-bottom: -20px;
+  }
+  .contacts__textarea {
+    width: 100%;
+  }
+  .contacts__inputs {
+    width: 100%;
+  }
+  input.contacts__input {
+    width: 100%;
+  }
+  img.invitation__gallery3 {
+    width: 200px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 410px) {
+  img.invitation__gallery3 {
+    width: 170px;
+    height: 120px;
+  }
+  img.invitation__gallery4, img.invitation__gallery1, img.invitation__gallery2 {
+    width: 105px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 350px) {
+  img.invitation__gallery3 {
+    width: 130px;
+    height: 100px;
+  }
+  img.invitation__gallery4, img.invitation__gallery1, img.invitation__gallery2 {
+    width: 95px;
+    height: 130px;
+  }
+}
+
+button.ham {
+  display: none;
+  background: none;
+  border: none;
+}
+
+@media screen and (max-width: 755px) {
+  .header__links {
+    display: none;
+  }
+  button.ham {
+    display: block;
+  }
+}
+
+.ham {
+  position: fixed;
+  /* keep the hamburger button above everything */
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+
+.xIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  font-family: "Work Sans", sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  list-style: none;
+  padding-top: 4rem;
+  z-index: 10;
+  min-height: 800px;
+}
+
+.showMenu {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.menu li {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuLink {
+  display: inline;
+  font-size: 2rem;
+  padding: 0px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.menuLink:hover {
+  border: 1px solid black;
+}
+
+span.menuIcon.material-icons img {
+  max-width: 30px;
+}
